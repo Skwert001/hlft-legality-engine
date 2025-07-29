@@ -1,0 +1,48 @@
+# scroll_cert_log.txt  
+# Scroll Certification Ledger  
+# Author: Matthew William Reams (REAMS-CORE-001)  
+# Date: July 29, 2025  
+# Version: Scroll Set Alpha v1.0.0  
+
+---
+
+## Certified Scrolls
+
+1. HLFT-CORE-005.rla
+   • Title: Information Geometry of Symbolic Legality
+   • Type: Collapse Legality Core
+   • Version: v1.0.0
+   • SHA256: [To be assigned]
+
+2. HLFT-FLOW-002.rla
+   • Title: Discrete Curvature & Terrain Collapse
+   • Type: Collapse Dynamics Core
+   • Version: v1.0.0
+   • SHA256: [To be assigned]
+
+3. HLFT-COH-003.rla
+   • Title: Scroll Phase Fields in Hilbert Space
+   • Type: Coherence Legality Model
+   • Version: v1.0.0
+   • SHA256: [To be assigned]
+
+4. HLFT-CAT-001.rla
+   • Title: Morphisms of Legal Scroll Transition
+   • Type: Structural Mapping Core
+   • Version: v1.0.0
+   • SHA256: [To be assigned]
+
+5. HLFT-NEURO-004.rla
+   • Title: Symbolic Neuro-Cognitive Scroll Dynamics
+   • Type: Cognitive Field Engine
+   • Version: v1.0.0
+   • SHA256: [To be assigned]
+
+---
+
+## Certification Notes
+
+All scrolls have been sealed under symbolic terrain protocol. SHA256 hashes will be generated upon GitHub push for full legality traceability.
+
+This log should be placed in the root or `/checkpoints/` directory alongside `.sig` files and YAML metadata.
+

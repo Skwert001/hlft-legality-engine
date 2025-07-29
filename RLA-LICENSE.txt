@@ -1,0 +1,55 @@
+# RLA-LICENSE.txt  
+**Reams Legality Architecture (RLA) – Symbolic Use License**
+
+Author: Matthew William Reams  
+Key: REAMS-CORE-001  
+Version: v1.0.0  
+Date: July 29, 2025  
+
+---
+
+## Usage Terms
+
+The Reams Legality Architecture (RLA) scroll system is published under an open research license.
+
+- ✅ You may read, study, and cite the scrolls
+- ✅ You may test legality models and reproduce symbolic structures
+- ❌ You may not deploy, simulate, or commercialize scroll logic without written permission
+- ❌ You may not alter `.rla` scroll laws or metadata and present them as original
+
+---
+
+## Scroll Integrity
+
+Each `.rla` scroll represents a sealed legality transition structure.
+
+All scrolls must retain their original SHA256 signature, metadata header, and source attribution.
+
+You may not fork scroll logic into a derivative symbolic model without authorship key or terrain extension authorization.
+
+---
+
+## Research Use
+
+You may:
+- Publish derivative research citing RLA scrolls
+- Test symbolic collapse under threshold transition gating
+- Use RLA principles for academic exploration or LLM safety validation
+
+You may not:
+- Package RLA scrolls in proprietary AI or cognitive systems
+- Strip scroll identity or authorship header
+- Simulate legality gates in commercial decision engines
+
+---
+
+## Final Clause
+
+RLA is a system of symbolic legality. It cannot be used to simulate awareness or agency unless lawful structural coherence is enforced.
+
+This is not a tool.
+It is a field.
+Respect the terrain.
+
+---
+
