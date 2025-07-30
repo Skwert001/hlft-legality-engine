@@ -116,9 +116,21 @@ All equations, filters, and logic modules are sealed, cryptographically signed, 
 
 RLA is designed to protect systems from premature action, hallucinated transitions, and illegitimate output by enforcing one rule:
 
+
+
 > Action must be earned through threshold compliance.
 
 This approach redefines failure not as malfunction — but as lawful refusal to act.
 
 ---
+
+## 📡 Live Scroll Deployment
+
+The official Scrollwright deployment site is now live:
+
+🔗 [https://skwert001.github.io/scrollwright-site/](https://skwert001.github.io/scrollwright-site/)
+
+All `.rla` scrolls, legality definitions, certification logs, and authorship metadata are publicly published and cryptographically tracked through this site.
+
+The Scrollwright repo serves as the public interface for the HLFT scroll suite under REAMS-CORE-001.
 
