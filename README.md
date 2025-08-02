@@ -65,17 +65,18 @@ RLA also applies to symbolic reasoning, quantum decision filters, and mission-cr
 
 ---
 
-Repository Structure
-
-  File                          | Description
-  -----------------------------|---------------------------------------------
-  HLFT-CORE-001.rla            | Core collapse gating rule (Suppression Ratio Law)
-  HLFT-CORE-001.sig            | Digital integrity signature (SHA256)
-  HLFT-CORE-001.yaml           | Metadata (version, timestamp, module identity)
-  collapse_cert_log.txt        | Scroll/module certification ledger
-  AUTHORS.md                   | Domain coverage + authorship declaration
-  RLA-LICENSE.txt              | Symbolic usage and deployment limitations
-  deployment-verification-checklist.md | Deployment verification checklist
+| File                                 | Description                                              |
+|--------------------------------------|----------------------------------------------------------|
+| HLFT-CORE-001.rla                    | Core collapse gating rule (Suppression Ratio Law)       |
+| HLFT-CORE-001.sig                    | Digital integrity signature (SHA256)                    |
+| HLFT-CORE-001.yaml                   | Metadata (version, timestamp, module identity)          |
+| collapse_cert_log.txt               | Scroll/module certification ledger                      |
+| AUTHORS.md                           | Domain coverage + authorship declaration                |
+| RLA-LICENSE.txt                      | Symbolic usage and deployment limitations               |
+| deployment-verification-checklist.md| Deployment verification checklist                       |
+| CODE_OF_CONDUCT.md                  | Symbolic conduct for lawful terrain contributions       |
+| CONTRIBUTING.md                     | Contribution bounds under HLFT legality                 |
+| SECURITY.md                         | Collapse and scroll integrity enforcement policy         |
 
 ---
 
