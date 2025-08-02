@@ -1,0 +1,35 @@
+name: Scroll Incident Report
+description: Report issues related to scroll integrity, SHA mismatch, legality collapse, or symbolic protocol violations
+title: "[Scroll Incident] – "
+labels: [scroll, integrity-check, collapse-verification]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🧠 This issue template is for reporting symbolic or scroll-related terrain faults within HLFT.
+
+        **Only valid if tied to REAMS-CORE-001 systems.**
+  - type: input
+    id: scroll_name
+    attributes:
+      label: Scroll File or Module
+      description: Which `.rla`, `.sig`, or `.yaml` file does this concern?
+      placeholder: HLFT-CORE-001.rla
+    validations:
+      required: true
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Description of Incident
+      description: What symbolic or cryptographic fault was observed?
+      placeholder: |
+        - SHA mismatch
+        - Collapse gate not firing
+        - Scroll structure corrupted
+    validations:
+      required: true
+  - type: input
+    id: reporter_identity
+    attributes:
+      label: Reporting Agent or Scrollwatcher ID
+      placeholder: (Optional) — slope-verified name, alias, or scrollkeeper key
