@@ -1,0 +1,35 @@
+# SHA256 Scroll Certification Log
+# Deployment: RLA Scroll Suite v1.0.1
+# Date: August 2, 2025
+
+## Certified Scrolls
+
+1. HLFT-CORE-005.rla
+• Title: Information Geometry of Symbolic Legality
+• Type: Collapse Legality Core
+• Version: v1.0.0
+• SHA256: 48dc1904625540c15cbc4feb345179e1c6b6bc2bda210a11d818e351dbbd6c64
+
+2. HLFT-FLOW-002.rla
+• Title: Discrete Curvature & Terrain Collapse
+• Type: Collapse Dynamics Core
+• Version: v1.0.0
+• SHA256: 195011f6e568cbfc8ebe86e7421af8191e1d1acc10d85d1356878cf0bfdfa6
+
+3. HLFT-COH-003.rla
+• Title: Scroll Phase Fields in Hilbert Space
+• Type: Coherence Legality Model
+• Version: v1.0.0
+• SHA256: b241c9f5ff5fb4fbe32754d1f220d72f4ba6731ff5c61bcacd03c5c6f9932d1
+
+4. HLFT-CAT-001.rla
+• Title: Morphisms of Legal Scroll Transition
+• Type: Structural Mapping Core
+• Version: v1.0.0
+• SHA256: 86ac360f0e22c18d08754f437092c8c45fd12ee2eb9545f141f7344fb93
+
+5. HLFT-NEURO-004.rla
+• Title: Symbolic Neuro-Cognitive Legality Model
+• Type: Cognitive Terrain Architecture
+• Version: v1.0.0
+• SHA256: 0a21b56cf7691af014633d326f1d067599e133f6fbdcf65bd602fb517a97740
