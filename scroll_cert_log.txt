@@ -12,31 +12,31 @@
    • Title: Information Geometry of Symbolic Legality
    • Type: Collapse Legality Core
    • Version: v1.0.0
-   • SHA256: [To be assigned]
+   • SHA256: [48dc1904625540c15cbc4feb345179e1c6b6bc2bda210a11d818e351dbbd6c64]
 
 2. HLFT-FLOW-002.rla
    • Title: Discrete Curvature & Terrain Collapse
    • Type: Collapse Dynamics Core
    • Version: v1.0.0
-   • SHA256: [To be assigned]
+   • SHA256: [195011f6e568cbfc8ebe0476217af8191e1d1acca10d85d1356878cbf0bdfda6]
 
 3. HLFT-COH-003.rla
    • Title: Scroll Phase Fields in Hilbert Space
    • Type: Coherence Legality Model
    • Version: v1.0.0
-   • SHA256: [To be assigned]
+   • SHA256: [b241c9f5f5fb4fbe32754d1f26210d72f4ba6731ff5c61bcacd03c5c6f9392d1]
 
 4. HLFT-CAT-001.rla
    • Title: Morphisms of Legal Scroll Transition
    • Type: Structural Mapping Core
    • Version: v1.0.0
-   • SHA256: [To be assigned]
+   • SHA256: [86ac360f0e22c18d08745d71f8f437092c8c45fd12ee2eb9545f141f7344fb93]
 
 5. HLFT-NEURO-004.rla
    • Title: Symbolic Neuro-Cognitive Scroll Dynamics
    • Type: Cognitive Field Engine
    • Version: v1.0.0
-   • SHA256: [To be assigned]
+   • SHA256: [0a21b56cf7691af014633d3276f10d67599ee133f6bdfc05bd602fb517a97740]
 
 ---
 
