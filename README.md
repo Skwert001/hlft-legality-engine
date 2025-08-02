@@ -80,11 +80,13 @@ RLA also applies to symbolic reasoning, quantum decision filters, and mission-cr
 
 ---
 
-File Definitions
+### File Definitions
 
-  - .rla – Collapse filtering modules that define transition gating rules. These are signed, self-contained legality units.
-  - .sig – SHA256 signature to verify scroll integrity.
-  - .yaml – Identity metadata (versioning, timestamp, key binding).
+- `.rla` — Collapse filtering scrolls that define legality transition thresholds. Sealed, signed, self-contained legality laws.
+- `.sig` — SHA256 digital signature to verify scroll identity.
+- `.yaml` — Metadata scrolls linking version, timestamp, and symbolic identity key.
+- `.md` — Governance scrolls for authorship, contribution policy, structural doctrine, and scroll interface declarations.
+- `.txt` — Certification logs, oath-bound constraints, and symbolic law declarations.
 
 ---
 
