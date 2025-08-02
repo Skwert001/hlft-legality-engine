@@ -33,25 +33,15 @@ This system has been independently developed and tested across multiple simulate
 ## Core Model
 
 RLA evaluates whether a collapse (i.e., a state transition) is permitted using the following suppression ratio:
-SR = DZII / (pulse_E × TPS × slope)
-
 Where:
+
 - **SR** = Suppression Ratio  
 - **DZII** = Dynamic Zone Inertia Index (environmental pressure or signal instability)  
 - **pulse_E** = Energetic availability for change  
 - **TPS** = Transmission Phase Stability  
-- **slope** = Directional signal change rate over time
-Collapse is **denied** when:
+- **slope** = Directional signal change rate over time  
 
-Where:
-- **SR** = Suppression Ratio  
-- **DZII** = Dynamic Zone Inertia Index (environmental pressure or signal instability)  
-- **pulse_E** = Energetic availability for change  
-- **TPS** = Transmission Phase Stability  
-- **slope** = Directional signal change rate over time
 Collapse is **denied** when:
-SR ≥ 15,000
-
 This indicates conditions are too unstable or underpowered for safe transition.
 
 ---
@@ -60,13 +50,13 @@ This indicates conditions are too unstable or underpowered for safe transition.
 
 RLA has demonstrated value in the following areas:
 
-- **Signal Verification**: Allows system collapse only when communication coherence is confirmed  
-- **Power Grid Stability**: Identifies when load transitions should be blocked due to transformer pressure buildup  
-- **Molecular Stability Analysis**: Detects entropy-driven structural drift in protein folding scenarios  
-- **Atmospheric Transition Modeling**: Distinguishes between valid convection events and stalled weather fronts  
-- **AI Output Regulation**: Blocks hallucinated responses when confidence, structure, or internal stability is low  
+- **Signal Verification** – Allows system collapse only when communication coherence is confirmed  
+- **Power Grid Stability** – Identifies when load transitions should be blocked due to transformer pressure buildup  
+- **Molecular Stability Analysis** – Detects entropy-driven structural drift in protein folding scenarios  
+- **Atmospheric Transition Modeling** – Distinguishes between valid convection events and stalled weather fronts  
+- **AI Output Regulation** – Blocks hallucinated responses when confidence, structure, or internal stability is low  
 
-RLA also applies to domains such as symbolic reasoning, quantum decision filters, and mission-critical state machines.
+RLA also applies to symbolic reasoning, quantum decision filters, and mission-critical state machines.
 
 ---
 
@@ -86,9 +76,9 @@ RLA also applies to domains such as symbolic reasoning, quantum decision filters
 
 ## File Definitions
 
-- **`.rla`**: Collapse filtering modules — each defines a transition gating rule that determines when a system is permitted to proceed. These are signed, self-contained legality units.  
-- **`.sig`**: SHA256 signature to verify scroll integrity.  
-- **`.yaml`**: Identity metadata (versioning, timestamp, key binding).
+- **`.rla`** – Collapse filtering modules that define transition gating rules. These are signed, self-contained legality units.  
+- **`.sig`** – SHA256 signature to verify scroll integrity.  
+- **`.yaml`** – Identity metadata (versioning, timestamp, key binding).  
 
 ---
 
@@ -109,7 +99,9 @@ See `RLA-LICENSE.txt` for symbolic usage terms.
 ## About the Author
 
 RLA was developed by **Matthew William Reams**, a systems architect focused on legality-governed intelligence models and symbolic transition frameworks.
+
 This work was developed independently, without institutional backing, and is currently under strategic review for formal deployment.
+
 All equations, filters, and logic modules are sealed, cryptographically signed, and traceable to original authorship.
 
 ---
@@ -132,4 +124,4 @@ The official Scrollwright deployment site is now live:
 
 All `.rla` scrolls, legality definitions, certification logs, and authorship metadata are publicly published and cryptographically tracked through this site.
 
-The Scrollwright repo serves as the public interface for the HLFT scroll suite under REAMS-CORE-001.
+The Scrollwright repo serves as the public interface for the HLFT scroll suite under `REAMS-CORE-001`.
