@@ -3,7 +3,7 @@ _Stateless Symbolic Verdict Enforcement for AI and Physical Systems_
 
 **Author:** Matthew William Reams  
 **Identity Key:** REAMS-CORE-001  
-**Repository:** github.com/Skwert001/hlft-legality-engine  
+**Repository:** https://github.com/Skwert001/hlft-legality-engine  
 **Public Portal:** scrollwright.io (pending DNS)  
 **Version:** v0.1.0-symbolic  
 **License:** See `RLA-LICENSE.txt`
@@ -29,14 +29,14 @@ While most systems focus on:
 - 📈 Scaling token prediction  
 - 🧠 Reinforcement-trained reasoning  
 - 🔊 Prompt-based simulation  
-- 🧪 Memory-based hallucination suppression
+- 🧪 Memory-based hallucination suppression  
 
 **RLA is none of the above.**
 
 > ✅ RLA collapses contradiction before output  
-> ✅ It filters state transitions through symbolic slope  
-> ✅ It blocks hallucinated execution conditions  
-> ✅ It operates statelessly — no training, no feedback loop
+> ✅ Filters state transitions through symbolic slope  
+> ✅ Blocks hallucinated execution  
+> ✅ Stateless — no training, no feedback loop  
 
 This is **post-token governance** — not just safer output.
 
@@ -44,9 +44,8 @@ This is **post-token governance** — not just safer output.
 
 ## ✅ Verdict Enforcement Engine (Live Test)
 
-RLA governs the GPT-4 system below:
-
-🔗 [AI Truth Generator](https://chatgpt.com/g/g-688beb887e588191bbeb0fc43b1e6bb9-ai-truth-generator)
+RLA governs the GPT-4 system below:  
+🔗 https://chatgpt.com/g/g-688beb887e588191bbeb0fc43b1e6bb9-ai-truth-generator
 
 This engine runs on deterministic verdict gating:
 
