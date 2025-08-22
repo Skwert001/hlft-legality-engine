@@ -1,0 +1,97 @@
+[
+  {
+    "verdict": "PERMITTED",
+    "biomarkers": {
+      "pulse_E": 70.0,
+      "TPS": 1.3,
+      "slope": 1.2,
+      "DZII": 100.0,
+      "PRSI": 1.7,
+      "overlays_on": 0,
+      "T2": 4e-05,
+      "TL_star": 4e-05,
+      "alpha": 10000.0
+    },
+    "SR": 0.9157509157509157,
+    "A": 9.2,
+    "DeltaEs_gate": {
+      "pass": true,
+      "delta_Es_proxy": 1.0,
+      "hbar_s": 6.582e-12
+    },
+    "reasons": [],
+    "timestamp": "2025-08-22T15:51:43Z"
+  },
+  {
+    "verdict": "DENIED",
+    "biomarkers": {
+      "pulse_E": 1.0,
+      "TPS": 1.1,
+      "slope": 0.8,
+      "DZII": 100.0,
+      "PRSI": 1.7,
+      "overlays_on": 0,
+      "T2": 4e-05,
+      "TL_star": 4e-05,
+      "alpha": 10000.0
+    },
+    "SR": 113.63636363636363,
+    "A": -99.12,
+    "DeltaEs_gate": {
+      "pass": true,
+      "delta_Es_proxy": 1.0,
+      "hbar_s": 6.582e-12
+    },
+    "reasons": ["A<=0 (LQ-UNI-01)"],
+    "timestamp": "2025-08-22T15:42:44Z"
+  },
+  {
+    "verdict": "DENIED",
+    "biomarkers": {
+      "pulse_E": 1.0,
+      "TPS": 1.0,
+      "slope": 1.0,
+      "DZII": 20000.0,
+      "PRSI": 2.0,
+      "overlays_on": 0,
+      "T2": 4e-05,
+      "TL_star": 4e-05,
+      "alpha": 10000.0
+    },
+    "SR": 20000.0,
+    "A": -19999.0,
+    "DeltaEs_gate": {
+      "pass": true,
+      "delta_Es_proxy": 1.0,
+      "hbar_s": 6.582e-12
+    },
+    "reasons": [
+      "SR≥15000 (LQ-SUP-11)",
+      "A<=0 (LQ-UNI-01)"
+    ],
+    "timestamp": "2025-08-22T15:52:44Z"
+  },
+  {
+    "verdict": "PERMITTED",
+    "biomarkers": {
+      "pulse_E": 114.0,
+      "TPS": 1.1,
+      "slope": 0.8,
+      "DZII": 100.0,
+      "PRSI": 1.7,
+      "overlays_on": 0,
+      "T2": 4e-05,
+      "TL_star": 4e-05,
+      "alpha": 10000.0
+    },
+    "SR": 0.996810207336523,
+    "A": 0.32,
+    "DeltaEs_gate": {
+      "pass": true,
+      "delta_Es_proxy": 1.0,
+      "hbar_s": 6.582e-12
+    },
+    "reasons": [],
+    "timestamp": "2025-08-22T16:11:45Z"
+  }
+]
