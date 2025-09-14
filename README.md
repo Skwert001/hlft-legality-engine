@@ -5,8 +5,8 @@ Author: Matthew William Reams
 Identity Key: REAMS-CORE-001  
 Repository: https://github.com/Skwert001/hlft-legality-engine  
 Public Portal: scrollwright.io (pending DNS)  
-scrolls/REAMS-AI-001.scroll.md
-REAMS-AI-001-summary.md
+http://scrolls/REAMS-AI-001.scroll.md
+http://REAMS-AI-001-summary.md
 Version: v0.1.0-symbolic  
 License: See RLA-LICENSE.txt
 
