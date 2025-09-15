@@ -1,3 +1,4 @@
+> **This repository contains REAMS-AI-001, a legality-gated evaluation layer that structurally suppresses hallucinations in large language models.**
 Reams Legality Architecture (RLA)
 A Threshold-Based System for Collapse Filtering and Transition Permission
 
