@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "REAMS-AI-001 SR Telemetry",
+  "type": "object",
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "answer",
+        "abstain"
+      ]
+    },
+    "SR": {
+      "type": "number",
+      "minimum": 0
+    },
+    "threshold": {
+      "type": "number"
+    },
+    "signals": {
+      "type": "object",
+      "properties": {
+        "pulse_E": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "TPS": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "DZII": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "slope": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "pulse_E",
+        "TPS",
+        "DZII",
+        "slope"
+      ],
+      "additionalProperties": false
+    },
+    "debug": {
+      "type": "object",
+      "properties": {
+        "support": {
+          "type": "object",
+          "properties": {
+            "retrieval": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "logprob": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "retrieval",
+            "logprob"
+          ],
+          "additionalProperties": false
+        },
+        "stability": {
+          "type": "object",
+          "properties": {
+            "agreement": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "n": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "agreement",
+            "n"
+          ],
+          "additionalProperties": false
+        },
+        "contradiction": {
+          "type": "object",
+          "properties": {
+            "nli": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "entropy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "nli",
+            "entropy"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "support",
+        "stability",
+        "contradiction"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "verdict",
+    "SR",
+    "threshold",
+    "signals"
+  ],
+  "additionalProperties": true
+}
