@@ -10,6 +10,12 @@ https://github.com/Skwert001/hlft-legality-engine/blob/main/scrolls/REAMS-AI-001
 Version: v0.1.0-symbolic  
 License: See RLA-LICENSE.txt
 
+## 💬 Join the Discussion
+
+- 📜 [Start Here: What is HLFT?](https://github.com/Skwert001/hlft-legality-engine/discussions/2#discussion-8906489)  
+- 🧠 [Hallucination Suppression (REAMS-AI-001)](https://github.com/Skwert001/hlft-legality-engine/discussions/3#discussion-8906504)  
+- 💡 [Use-Case Ideas & Requests](https://github.com/Skwert001/hlft-legality-engine/discussions/4#discussion-8906520)  
+
 ---
 
 Overview
