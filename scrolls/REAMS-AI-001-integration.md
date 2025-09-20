@@ -4,6 +4,9 @@
 **Author:** Matthew William Reams (REAMS-CORE-001)
 
 This guide shows how to add a **legality-gated evaluation layer** to an LLM pipeline to suppress hallucinations by **penalizing confident errors more than abstentions**.
+> **Note on scale:** The integration guide uses normalized proxies (S̃R) with default τ≈1.0.  
+> The doctrine (REAMS-AI-001) defines the physical SR law with deny threshold 15,000.  
+> These scales are distinct and should not be conflated.
 
 ---
 
