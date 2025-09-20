@@ -1,4 +1,13 @@
 """
+REAMS-AI-001 Reference Gate
+
+NOTE ON SCALE:
+This reference gate uses normalized proxies (S̃R) with default τ≈1.0.
+The physical doctrine (REAMS-AI-001) uses SR with deny threshold 15,000.
+These are distinct scales.
+"""
+
+
 sr_gate_reference.py - Minimal legality-gate reference for REAMS-AI-001
 Author: Matthew William Reams (REAMS-CORE-001)
 Date: 2025-09-15
