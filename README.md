@@ -10,6 +10,15 @@ https://github.com/Skwert001/hlft-legality-engine/blob/main/scrolls/REAMS-AI-001
 Version: v0.1.0-symbolic  
 License: See RLA-LICENSE.txt
 
+## 📑 Start Here
+
+- [REAMS-AI-001 Doctrine Scroll](scrolls/REAMS-AI-001.scroll.md)  
+- [Executive Summary (one-page)](docs/REAMS-AI-001-summary.md)  
+- [Reference Gate (Python)](scripts/sr_gate_reference.py)  
+- [Integration Guide](docs/REAMS-AI-001-integration.md)  
+- [SR Telemetry Schema](schemas/SR_telemetry_schema.json)  
+
+
 ## 💬 Join the Discussion
 
 - 📜 [Start Here: What is HLFT?](https://github.com/Skwert001/hlft-legality-engine/discussions/2#discussion-8906489)  
