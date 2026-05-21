@@ -17,7 +17,6 @@ The Reams Legality Engine is a threshold-gated filter that evaluates outputs bef
 - [Integration Guide](scrolls/REAMS-AI-001-integration.md)  
 - [SR Telemetry Schema](scrolls/SR_telemetry_schema.json)  
 
-
 ## 💬 Join the Discussion
 
 - 📜 [Start Here: What is HLFT?](https://github.com/Skwert001/hlft-legality-engine/discussions/2#discussion-8906489)  
@@ -26,7 +25,7 @@ The Reams Legality Engine is a threshold-gated filter that evaluates outputs bef
 
 ---
 
-Overview
+## Overview
 
 Reams Legality Architecture (RLA) is a novel framework that determines whether a system should proceed with an internal transition — such as emitting a signal, executing a function, or altering state — based on environmental conditions and internal readiness.
 
@@ -36,7 +35,7 @@ This architecture introduces a new concept: permissive logic, where systems are 
 
 ---
 
-Novelty and Scope
+## Novelty and Scope
 
 To our knowledge, no existing framework enforces dynamic collapse gating using a real-time legality threshold composed of signal-based and coherence-related parameters.
 
@@ -46,13 +45,13 @@ This system has been independently developed and tested across multiple simulate
 
 ---
 
-Core Model
+## Core Model
 
 RLA evaluates whether a collapse (i.e., a state transition) is permitted using the following suppression ratio:
 
   SR = DZII / (pulse_E × TPS × slope)
 
-Where:
+Where:  
   - SR = Suppression Ratio  
   - DZII = Dynamic Zone Inertia Index (environmental pressure or signal instability)  
   - pulse_E = Energetic availability for change  
@@ -67,7 +66,7 @@ This indicates conditions are too unstable or underpowered for safe transition.
 
 ---
 
-Functional Applications
+## Functional Applications
 
 RLA has demonstrated value in the following areas:
 
@@ -98,28 +97,15 @@ RLA also applies to symbolic reasoning, quantum decision filters, and mission-cr
 
 ### File Definitions
 
-- `.rla` — Collapse filtering scrolls that define legality transition thresholds. Sealed, signed, self-contained legality laws.
-- `.sig` — SHA256 digital signature to verify scroll identity.
-- `.yaml` — Metadata scrolls linking version, timestamp, and symbolic identity key.
-- `.md` — Governance scrolls for authorship, contribution policy, structural doctrine, and scroll interface declarations.
+- `.rla` — Collapse filtering scrolls that define legality transition thresholds. Sealed, signed, self-contained legality laws.  
+- `.sig` — SHA256 digital signature to verify scroll identity.  
+- `.yaml` — Metadata scrolls linking version, timestamp, and symbolic identity key.  
+- `.md` — Governance scrolls for authorship, contribution policy, structural doctrine, and scroll interface declarations.  
 - `.txt` — Certification logs, oath-bound constraints, and symbolic law declarations.
 
 ---
 
-Access and Use
-
-This repository is intended for scientific and strategic review.  
-It is not an open-source software library, simulator, or API.
-
-All transitions, thresholds, and collapse gating structures are protected under authorship key: REAMS-CORE-001
-
-Unauthorized replication or modification without formal permission may result in invalid legality state.
-
-See RLA-LICENSE.txt for symbolic usage terms.
-
----
-
-About the Author
+## About the Author
 
 RLA was developed by Matthew William Reams, a systems architect focused on legality-governed intelligence models and symbolic transition frameworks.
 
@@ -129,7 +115,7 @@ All equations, filters, and logic modules are sealed, cryptographically signed, 
 
 ---
 
-Final Note
+## Final Note
 
 RLA is designed to protect systems from premature action, hallucinated transitions, and illegitimate output by enforcing one rule:
 
@@ -139,7 +125,7 @@ This approach redefines failure not as malfunction — but as lawful refusal to 
 
 ---
 
-📡 Live Scroll Deployment
+## 📡 Live Scroll Deployment
 
 The official Scrollwright deployment site is now live:
 
