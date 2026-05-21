@@ -1,14 +1,14 @@
-> **This repository contains REAMS-AI-001, a legality-gated evaluation layer that structurally suppresses hallucinations in large language models.**
-Reams Legality Architecture (RLA)
-A Threshold-Based System for Collapse Filtering and Transition Permission
+# HLFT / Reams Legality Architecture (RLA)
 
-Author: Matthew William Reams  
-Identity Key: REAMS-CORE-001  
-Repository: https://github.com/Skwert001/hlft-legality-engine  
-Public Portal: scrollwright.io (pending DNS)  
-https://github.com/Skwert001/hlft-legality-engine/blob/main/scrolls/REAMS-AI-001.scroll.md
-Version: v0.1.0-symbolic  
-License: See RLA-LICENSE.txt
+**MIT licensed** — feel free to fork, modify, use, and build on this project.
+
+The Reams Legality Engine is a threshold-gated filter that evaluates outputs before they are emitted, enforcing “permission before action” to reduce hallucinations and increase reliability.
+
+## Quick Start
+- [See the full spec and restore-point template](docs/)
+- Fork this repo and start building
+
+**Contributions, issues, and pull requests are welcome.**
 
 ## 📑 Start Here
 
